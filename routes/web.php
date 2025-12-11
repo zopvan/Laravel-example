@@ -1,6 +1,7 @@
 <?php
 
-use app\Http\Controller\DosenController;
+use App\Http\Controllers\DosenController;
+use App\Http\Controllers\pegawaiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,3 +17,6 @@ Route::GET('blog', function () {
 });
 
 Route::get('/dosen', [DosenController::class, 'index']);
+Route::get('/pegawai/{nama}', [pegawaiController::class,'index']);
+Route::get('/form', [pegawaiController::class,'form']);
+Route::post('/form/process', [pegawaiController::class,'process']);

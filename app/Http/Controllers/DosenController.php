@@ -6,6 +6,9 @@ class DosenController extends Controller
 {
     public function index()
     {
-        return 'ini adalah dosen controller';
+        $nama = 'Zovan Rizza Fannevi';
+        $matkul = ['Algoritma', 'Probstat', 'Kalkulus'];
+
+        return view('biodata', ['nama' => $nama, 'matkul' => $matkul]);
     }
 }
