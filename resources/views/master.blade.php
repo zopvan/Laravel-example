@@ -16,7 +16,7 @@
 
             <a href="/blog/tentang">About</a>
 
-            <a href="/blog/kontal">Kontak</a>
+            <a href="/blog/kontak">Kontak</a>
 
         </nav>
     </header>

@@ -20,7 +20,18 @@
     {{-- penulisan section panjang --}}
     @section('konten')
         <p>Ini adalah halaman home</p>
-        <p>selamat datang</p>
+        <table border="1">
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>El</td>
+            </tr>
+            <tr>
+                <th>Hp</th>
+                <th>:</th>
+                <th>0909909090</th>
+            </tr>
+        </table>
 
     @endsection
 </body>
